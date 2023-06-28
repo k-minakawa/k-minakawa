@@ -112,11 +112,11 @@ body {
 /* -----mv----- */
 .l_main_mv-wrap {
   height: 100vh;
-  background: url(../img/kv_sm.png) center / cover;
+  background: url(img/kv_sm.png) center / cover;
 }
 @media screen and (min-width: 1080px) {
   .l_main_mv-wrap {
-    background: url(../img/kv_lg.png) center / cover;
+    background: url(img/kv_lg.png) center / cover;
   }
 }
 
