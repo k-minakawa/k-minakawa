@@ -116,7 +116,7 @@ body {
 }
 @media screen and (min-width: 1080px) {
   .l_main_mv-wrap {
-    background: url(img/kv_lg.png) center / cover;
+    background: url(https://github.com/k-minakawa/k-minakawa/blob/main/img/kv_lg.png?raw=true) center / cover;
   }
 }
 
