@@ -61,10 +61,11 @@ body {
 /* -----header----- */
 .l_header {
   background: var(--mein-color); 
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: var(--z-index-default);
+  right: 0;
+  z-index: 999;
 }
 .l_header_sp {
   display: flex;
@@ -207,8 +208,14 @@ body {
 
 /* -----mv----- */
 .l_main_mv-wrap {
+  margin-top: 50px;
   height: 100vh;
   background: url(img/kv_sm.png) center / cover;
+}
+@media screen and (min-width: 768px) {
+  .l_main_mv-wrap {
+    margin-top: 90px;
+  }
 }
 @media screen and (min-width: 1080px) {
   .l_main_mv-wrap {
