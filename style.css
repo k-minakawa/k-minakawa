@@ -117,6 +117,7 @@ body {
   .l_header-nav {
     height: 40px;
     position: static;
+    transform: initial;
   }
 }
 .l_header-nav_list {
