@@ -132,7 +132,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 16px;
-  }
+    }
   }
   @media screen and (min-width: 1080px) {
     .l_header-nav_list {
