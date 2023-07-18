@@ -29,23 +29,32 @@
 <body>
   <!-- header -->
   <header class="l_header">
-    <h1 class="l_header_ttl">My Portfolio</h1>
-    <nav class="l_header-nav">
-      <ul class="l_header-nav_list">
-        <li class="l_header-nav_item">
-          <a href="index.html#about">About</a>
-        </li>
-        <li class="l_header-nav_item">
-          <a href="index.html#skill">Skill</a>
-        </li>
-        <li class="l_header-nav_item">
-          <a href="index.html#work">Work</a>
-        </li>
-        <li class="l_header-nav_item">
-          <a href="index.html#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="l_header_sp">
+      <a href="#"><h1 class="l_header_ttl">My Portfolio</h1></a>
+      
+      <nav class="l_header-nav nav" id="js-nav">
+        <ul class="l_header-nav_list">
+          <li class="l_header-nav_item">
+            <a href="index.html#about">About</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#skill">Skill</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#work">Work</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="l_header_hamburger hamburger" id="js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
   </header>
   <main class="l_main">
     <!-- mv -->
